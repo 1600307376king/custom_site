@@ -15,7 +15,6 @@ class Base extends React.Component{
         };
     }
 
-
     listenMouseXY(e){
         this.setState({
             x : e.clientX,
@@ -32,15 +31,17 @@ class Base extends React.Component{
                     <br/>
                     y : {this.state.y}
                 </div>
-                <div id="topNavLine" className="topNavLine"/>
-                <div id="footNav" className="footNav">footer</div>
-                {/*<div id="topNavLine" className="topNavLine" onMouseDown={this.mouseOver.bind(this)}*/}
-                {/*     onMouseUp={this.mouseLeave.bind(this)}>*/}
+                <div id="topNavLine" className="topNavLine" />
+                <div id="middleContent" className="middleContent" >
+                    <div id="leftBelt" className="leftBelt">
 
-                {/*</div>*/}
+                    </div>
+                    <div id="rightBelt" className="rightBelt">
+
+                    </div>
+                </div>
+                <div id="footerNav" className="footerNav" />
             </div>
-
-
         )
     }
 }

@@ -31,3 +31,37 @@ body {
     width: 100%;
     height: 10px;
 }
+
+.middleContent {
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+
+}
+
+.leftBelt {
+    height: 100%;
+    width: 20px;
+    background: #3C3F41;
+    position: absolute;
+    left: 0;
+}
+
+.rightBelt {
+    height: 100%;
+    width: 20px;
+    background: #3C3F41;
+    position: absolute;
+    right: 0;
+}
+
+.footerNav {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    background: #3C3F41;
+}
