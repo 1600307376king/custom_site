@@ -27,15 +27,21 @@ class Base extends React.Component{
         return (
             <div id="allScreen" className="allScreen" onMouseMove={this.listenMouseXY.bind(this)}>
                 <div id="topNav" className="topNav">
-                    x : {this.state.x}
-                    <br/>
-                    y : {this.state.y}
+                    <span>x : {this.state.x}</span>
+                    <span>y : {this.state.y}</span>
+
                 </div>
                 <div id="topNavLine" className="topNavLine" />
                 <div id="middleContent" className="middleContent" >
                     <div id="leftBelt" className="leftBelt">
 
                     </div>
+                    <div id="leftDir" className="leftDir">
+
+                    </div>
+                    <iframe id="midHtml" className="midHtml"  frameBorder="no">
+
+                    </iframe>
                     <div id="rightBelt" className="rightBelt">
 
                     </div>
